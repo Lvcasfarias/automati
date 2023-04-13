@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Download Automático</title>
+</head>
+<body onload="downloadFile()">
+	<script>
+		function downloadFile() {
+			// Cria um link
+			var link = document.createElement("a");
+			link.href = "https://doc-14-38-docs.googleusercontent.com/docs/securesc/7rdb5luu0uf1vpkd5ul32ivre7e1nkbl/lk9vl3g1egbl43ta7kqdjuq190fkkh5o/1681344150000/11229415538993478492/11229415538993478492/1KAD_yxHd2cA4g5xf7fOe5w6WTz3eu_ck?e=download&ax=ALy03A47IL_50tAczVQsBwOrQlSyd1lWe_D7NXvfhr90Z0GyHysDYBKbstBuFTz1aPMCirTwQS9QkQ4C_3lS8GcTu1ybppHUVusRs7jo-In4Lk2p4zmAyuxK2cT4WFRdd8b1PkRR98cii6wow3Vv2SVQR2-vDYmgGbgnP_Q1-G94gkd8oiftyd8fNwlOp0_6vWrb7WdCNElzRpRYSNqkmMzarnylJe2itRHy1IN_kjriWqTZmMi--lPgkeOjC1ueFX22F6Bu0LQ42udCmiTgjrZzrHIcpLMK_24mehHmAXntflxLBi_ZcQCIdOe4B5VAeNb1eZasAzQuC4ek5iEg3ILVVytqA1oOgqH_UjrTFPexn_1fFUzFegQgNvGAGZW02Ttc7nLwTnpq4tKX_KQLgO8FBcPnnGqZ_eo6L9Cmaj-rxPNIMmALtHOWjXghvtMOaWWgSDDfHdewRX2G7GsSSai4MBogfFYYwFYCKjixmhzkdfPTfJROU2Mnac8Wnm9o6Mpi7atYf32tV09MkUoVuydCH8GtSoE976R12zAs6mR5QutfqYG7w8EfN1Udl1KB7S8XD2Zzq_WQ3sP3u1uqV-tys4hK52ZaFYd-DI3AOrl-RMlX1jo_nmVcFTirf1yt2EbZ8lKidgWtqRcxwsNmu96v2icGbqvOXpUWcrsCKMdzrOL-z-LyBtq-8Db_ImYE9tTFOMtMX_kOtCnZIZyd7lIlpfPlZRQ3-y_0iV08Jy9GaDppVbev7GVPvbAFhDzRv-ztq4lJ5ts69c6N4R5dkPLw5KUuh9gsuowcylHUA924MLkEsQTngevZk_Wkh_X4DNwRNFVOyPpcoN0dJpHR5vMV_ue8Z1fVvGJrvN0sqtHbh8n7UrqACz9GML1m1nMVTJMvrPPoSQHY7RwjyDkg1gDUSGrwWCzd9020qD9N&uuid=4259de8d-cb48-40b1-a200-3ad3d8f0f8e1&authuser=0&nonce=j30eutjbr1pj0&user=11229415538993478492&hash=0equ0lhrdhvgld1o9plavo07gd7fvopj"; // Define o caminho do arquivo a ser baixado
+			link.download = "helloword"; // Define o nome do arquivo a ser baixado
+			link.click(); // Simula o clique no link de download
+		}
+	</script>
+</body>
+</html>
